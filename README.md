@@ -4,7 +4,7 @@ Simple overview of use/purpose.
 
 ## Description
 
-I am making a workable AI chatbot that you can talk to.
+I am making a workable AI chatbot that you can talk to. My AI chatbot will be able to talk and awnser questions of any topic.
 
 ## Getting Started
 
