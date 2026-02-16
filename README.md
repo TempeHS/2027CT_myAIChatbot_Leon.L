@@ -1,10 +1,10 @@
-# Project Title
+# My AI Chatbot
 
 Simple overview of use/purpose.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+I am making a workable AI chatbot that you can talk to.
 
 ## Getting Started
 
@@ -50,7 +50,7 @@ ex. [@benpaddlejones](https://github.com/benpaddlejones)
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the GNU GPL v3.0 License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
