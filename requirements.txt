@@ -1,3 +1,9 @@
 Flask
 bcrypt
 flask_wtf
+
+# Step 1: Create a vertual envirorment caalled 'venv' 
+ Python -m venv venv
+
+ # Step 2: Activate the vertual envirornment
+ source venv/bin?activae
