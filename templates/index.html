@@ -53,6 +53,12 @@
         <div class="card-header bg-primary text-white">
           <h4 class="mb-0">🤖 AI Tacitus Kilgore</h4>
         </div>
+        <div class="alert alert-warning mt-3" role="alert">
+          <strong>⚠️ Disclaimer:</strong> I'm an AI chatbot created by a
+          student. I don't always give accurate information and I'm not a
+          substitute for talking to a real person. If you need help, please
+          speak with a trusted adult or contact a helpline.
+        </div>
         <div class="card-body">
           <div id="chat-box" class="chat-box">
             <div class="message bot-message">Hello human, how are you?</div>
@@ -126,3 +132,13 @@
     </script>
   </body>
 </html>
+# Safety: Keywords that should trigger a mental health response CRISIS_KEYWORDS
+= [ 'suicide', 'kill myself', 'end my life', 'self harm', 'self-harm', 'dont
+want to live', "don't want to live", 'want to die' ] CRISIS_RESPONSE = """I'm
+concerned about what you've shared. Please know that you're not alone. If you're
+in crisis, please reach out for support: - Lifeline: 13 11 14 (24/7) - Kids
+Helpline: 1800 55 1800 - Beyond Blue: 1300 22 4636 I'm just a chatbot and can't
+provide the support you need, but these services have trained counselors ready
+to help right now.""" def check_for_crisis(message): """Check if message
+contains crisis keywords.""" message_lower = message.lower() for keyword in
+CRISIS_KEYWORDS: if keyword in message_lower: return True return False
